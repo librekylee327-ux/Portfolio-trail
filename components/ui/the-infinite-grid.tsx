@@ -72,7 +72,7 @@ export const Component = () => {
 
       <div className="relative z-10 flex flex-col items-center text-center px-4 max-w-3xl mx-auto space-y-6 pointer-events-none">
         <div className="space-y-2">
-          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-foreground drop-shadow-sm flex items-center justify-center gap-5">
+          <h1 className="font-extrabold tracking-tight text-foreground drop-shadow-sm flex items-center justify-center gap-5 whitespace-nowrap" style={{ fontSize: "clamp(1.4rem, 5vw, 3.75rem)" }}>
             <span className="relative inline-block overflow-hidden" style={{ height: "1.2em" }}>
               <span className="invisible" aria-hidden>Designer</span>
               <AnimatePresence mode="wait">
