@@ -4,7 +4,6 @@ import {
   motion,
   AnimatePresence,
   useMotionValue,
-  useTransform,
   useMotionTemplate,
   useAnimationFrame,
 } from "framer-motion";
@@ -109,6 +108,14 @@ export const Component = () => {
           >
             Contact
           </button>
+          <a
+            href="http://linkedin.com/in/jaekyolee"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 bg-secondary text-secondary-foreground font-semibold rounded-md hover:bg-secondary/80 transition-all active:scale-95"
+          >
+            LinkedIn
+          </a>
         </div>
       </div>
     </div>
