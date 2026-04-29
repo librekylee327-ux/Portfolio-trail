@@ -132,7 +132,12 @@ export default function Home() {
           </p>
           <nav className="flex gap-7 text-sm md:shrink-0">
             {["Email", "Linkdedin", "Resume"].map((label) => (
-              <a key={label} href="#" className="hover:opacity-60 transition-opacity">
+              <a
+                key={label}
+                href="#"
+                className="hover:opacity-60 transition-opacity"
+                onClick={label === "Linkdedin" ? (e) => { e.preventDefault(); window.open("http://linkedin.com/in/jaekyolee", "_blank"); } : undefined}
+              >
                 {label}
               </a>
             ))}
