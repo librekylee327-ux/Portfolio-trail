@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "프로덕트 디자이너 이재교",
     description: "Product Designer Lee Jaekyo",
-    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "https://pdkyle.netlify.app/og-image.png", width: 1200, height: 630 }],
   },
 };
 
